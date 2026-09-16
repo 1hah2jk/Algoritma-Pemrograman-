@@ -1,0 +1,19 @@
+Algoritma Keliling Persegi 
+
+Tahap 1: Mulai
+
+Tahap 2: Input
+
+Masukkan nilai panjang sisi persegi (s).
+
+Tahap 3: Proses
+
+Hitung keliling dengan rumus:
+
+Keliling = 4 × sisi
+
+Tahap 4: Output
+
+Tampilkan hasil keliling persegi.
+
+Tahap 5: Selesai

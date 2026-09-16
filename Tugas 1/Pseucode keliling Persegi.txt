@@ -1,0 +1,5 @@
+1. Mulai
+2. s= input " "
+3. Hitung keliling = 4 × sisi
+4. Tampilkan hasil keliling persegi
+5. Selesai
