@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Diskon dengan IF AND</title>
+</head>
+<body>
+    <div class="box">
+        <h2>Program Hitung Diskon DJOVITA ASMARA</h2>
+        <label>Total Belanja</label>
+        <input type="number" id="TotalBelanja" value="600000">
+        <br><br>
+        <label>Member:</label>
+        <select id="Member">
+        <option value="Ya">Ya</option>
+        <option value="Tidak">Tidak</option>
+        </select>
+        <br><br>
+        <button onclick="cekdiskon()">Cek Diskon</button>
+        <div id="Hasil"></div>
+    </div>
+    <script>
+        function cekdiskon() {
+            let TotalBelanja = document.getElementById("TotalBelanja").value;
+            let Member = document.getElementById("Member").value;
+
+            if (TotalBelanja >= 500000 && Member == "Ya"){
+                document.getElementById("Hasil").innerHTML = "Diskon 10%";
+            } else {
+                document.getElementById("Hasil").innerHTML = "Tidak Diskon";
+            }
+        }
+    </script>
+</body>
+</html>
