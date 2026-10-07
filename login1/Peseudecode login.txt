@@ -1,0 +1,20 @@
+MULAI
+
+INPUT username
+INPUT password
+
+IF username = "admin" AND password = "admin123" THEN
+    OUTPUT "Login ke page admin"
+
+ELSE IF username = "dosen" AND password = "dosen111" THEN
+    OUTPUT "Login ke page admin"
+
+ELSE IF username = "mahasiswa" AND password = "mahasiswa123" THEN
+    OUTPUT "Login ke page admin"
+
+ELSE
+    OUTPUT "Username dan password salah"
+
+END IF
+
+SELESAI
