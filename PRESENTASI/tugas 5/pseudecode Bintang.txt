@@ -1,0 +1,15 @@
+MULAI
+    Minta pengguna memasukkan nilai tinggi segitiga (simpan dalam variabel 'tinggi')
+    
+    // Perulangan luar untuk mengatur jumlah baris
+    UNTUK i dari 1 SAMPAI tinggi LAKUKAN
+    
+        // Perulangan dalam untuk mencetak bintang pada baris ke-i
+        UNTUK j dari 1 SAMPAI i LAKUKAN
+            Cetak simbol bintang '*' tanpa pindah baris (gunakan end=' ')
+        SELESAI UNTUK
+        
+        Pindah ke baris baru (print newline)
+        
+    SELESAI UNTUK
+SELESAI
